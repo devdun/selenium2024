@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AutomationFrameworkSuite">
+    <!--Values Chrome Firefox HLChrome HLFirefox HTMLUnit phantomJS-->
+    <parameter name="browser" value="chrome"/>
+
+    <!--Values AdminURL StatementURL PatientURL-->
+    <parameter name="URL" value="QA"/>
+
+<!--    <test name="CheckBoxPageTest">
+        <classes>
+            <class name="tests.gapstar.CheckBoxTest"/>
+        </classes>
+    </test>-->
+
+    <test name="InputFieldsTest">
+        <classes>
+            <class name="tests.gapstar.InputTest"/>
+        </classes>
+    </test>
+</suite>

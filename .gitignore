@@ -1,0 +1,57 @@
+# Maven target directory
+/target/
+
+# IntelliJ IDEA files
+/.idea/
+/*.iml
+
+# Eclipse files
+/.settings/
+/.project
+/.classpath
+
+# VS Code settings
+/.vscode/
+
+# MacOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled class files
+*.class
+
+# Temporary files
+*.tmp
+*.swp
+
+# Git configuration
+!.gitignore
+
+# Node modules (if using Node.js tools in the project)
+/node_modules/
+
+# Coverage and reports
+/coverage/
+/reports/
+
+# Build artifacts
+*.jar
+*.war
+*.ear
+
+# Test results
+/surefire-reports/
+/test-output/
+
+# IDE-specific settings
+/.idea/
+/*.iml
+
+# Miscellaneous
+*.log
+*.bak
